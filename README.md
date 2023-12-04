@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# 유튜브 클론코딩
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 기간 : 2023-10~2023-11
 
-## Available Scripts
+### 사용 기술
 
-In the project directory, you can run:
+`React` **`TanStack Query` `react-router` `tailwindcss`**
 
-### `yarn start`
+### 배운점
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- TanStack-Query를 이용하여, 데이터를 캐싱하고 staleTime을 설정하여 자신이 원하는 때에 데이터를 재랜더링 시키는 방법을 알게 되었다.
+- tailwindcss를 계속 사용하다보니 익숙해지고 사용방법을 익히게 되었다.
+- useContext를 이용하여 API 관리를 따로 관리하는 방법을 배웠다.
+- React-router 을 이용한, 페이지 라우팅 그리고 url에 Param을 추출해서, 검색 기능을 구현하는 방법을 배웠다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 느낀점
 
-### `yarn test`
+- 하나의 Component를 다양한 방법으로 재사용할 수 있다는 것에 놀라움을 느꼈다.
+- TanStack-query의 중요성을 깨닫고 서버 상태 관리를 더 효율적으로 해야겠다고 느꼈다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 영상
+https://github.com/asylee02/Youtube-clone/assets/87488288/b0bff15c-0edb-41a0-9b0c-00e69e5fb83f
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
